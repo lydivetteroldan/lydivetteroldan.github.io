@@ -1,7 +1,11 @@
 .footer {
   background-color: $white;
   bottom: 0;
-  height: 60px;
+  height: $footer-height;
   position: absolute;
   width: 100%;
+
+  p {
+    margin: 0 0 5px;
+  }
 }

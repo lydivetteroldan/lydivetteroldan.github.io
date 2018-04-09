@@ -1,6 +1,25 @@
+$main-padding: 30px;
+$medium-padding: 15px;
+$footer-height: 60px + $medium-padding;
+
 html {
   min-height: 100%;
   position: relative;
+}
+
+body {
+  margin-bottom: $footer-height;
+}
+
+a {
+  color: $black;
+
+  &,
+  &:hover,
+  &:focus {
+    color: $black;
+    text-decoration: none;
+  }
 }
 
 .bw {
@@ -36,4 +55,8 @@ html {
 .img-thumbnail {
   border: 1px solid $white;
   border-radius: 0;
+}
+
+.main {
+  padding-top: 4em;
 }

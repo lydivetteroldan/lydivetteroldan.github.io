@@ -1,0 +1,24 @@
+.btn-link,
+.nav > li > a {
+  border-bottom: 2px solid $black;
+  color: $black;
+  outline: none;
+  padding-bottom: 1px;
+
+  &,
+  &:hover,
+  &:focus {
+    background-color: $clear;
+    text-decoration: none;
+  }
+
+  &:hover,
+  &:focus {
+    border-bottom: 2px solid $gray;
+    color: $black;
+  }
+
+  &.btn-inline {
+    padding: 0;
+  }
+}
