@@ -1,11 +1,3 @@
-.dropdown-menu {
-  li {
-    &:not(.divider) {
-      padding: $medium-padding;
-    }
-  }
-}
-
 .site-navigation {
   &-item {
     padding: $medium-padding;
@@ -13,24 +5,5 @@
     &:last-child {
       padding-right: 0;
     }
-  }
-}
-
-@media (max-width: $screen-xs-max) {
-  .dropdown-menu-right {
-    left: 0;
-    right: 0;
-  }
-
-  .navbar-right {
-    margin-left: -15px;
-    margin-right: -15px;
-  }
-}
-
-@media (min-width: $screen-sm-max) {
-  .header {
-    padding-left: $medium-padding;
-    padding-right: $medium-padding;
   }
 }
