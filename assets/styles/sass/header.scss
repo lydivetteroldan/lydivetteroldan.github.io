@@ -9,6 +9,10 @@
 .site-navigation {
   &-item {
     padding: $medium-padding;
+
+    &:last-child {
+      padding-right: 0;
+    }
   }
 }
 

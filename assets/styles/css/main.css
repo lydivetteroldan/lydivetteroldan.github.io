@@ -5860,6 +5860,8 @@ body {
 
 .site-navigation-item {
   padding: 15px; }
+  .site-navigation-item:last-child {
+    padding-right: 0; }
 
 @media (max-width: 767px) {
   .dropdown-menu-right {
