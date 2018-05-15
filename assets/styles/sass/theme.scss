@@ -18,41 +18,24 @@ a {
   }
 }
 
-.bw {
-  background-color: $black;
-  color: $white;
-}
-
-.centered {
-  -webkit-transform: translate(-50%, -50%);
-  left: 50%;
+.introduction-text {
+  height: 100%;
   position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  z-index: 2;
 }
 
-.flex-parent {
-  /* autoprefixer: off */
-  display: flex;
-
-  &.fixed-centered {
-    height: 100%;
-    justify-content: center;
-    min-height: 100%;
-    position: fixed;
-    width: 100%;
-
-    > * {
-      align-self: center;
-    }
-  }
+.scaling-svg-container {
+  height: 0;
+  padding: 0;
+  padding-bottom: 70%;
+  position: relative;
+  width: 100%;
 }
 
-.img-thumbnail {
-  border: 1px solid $white;
-  border-radius: 0;
-}
-
-.main {
-  padding-top: 4em;
+.scaling-svg {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
