@@ -7992,11 +7992,6 @@ a {
   top: 0;
   width: 100%; }
 
-.site-navigation-item {
-  padding: 15px; }
-  .site-navigation-item:last-child {
-    padding-right: 0; }
-
 .btn-link,
 .nav > li > a {
   border-bottom: 2px solid #111;

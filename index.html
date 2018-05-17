@@ -14,69 +14,45 @@
     </head>
     <body class="avenir">
       <!-- nav -->
-      <nav class="db dt-l w-100 border-box pa3 ph4-l">
-        <a class="db dtc-l v-mid link w-100 w-25-l tc tl-l mb2 mb0-l logo" href="#" title="Home">
-          <svg class="dib w2 h2 br-100" width="200" height="180" viewBox="222 205 2000 1800" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-              <desc>Lydivette Roldán - logo</desc>
-              <defs></defs>
-              <g id="logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(222.000000, 205.000000)">
-                  <ellipse class="logo-oval" id="logo-oval" stroke="#F4F4F4" fill="#F4F4F4" cx="1000" cy="900.144928" rx="800" ry="846.144928"></ellipse>
-                  <polygon class="logo-l" id="logo-l" stroke="#E7040F" stroke-width="7" fill="#E7040F" points="886.381323 1257.58366 1240 1257.58366 1240 1353.45914 760 1353.45914 760 447 886.381323 447"></polygon>
+      <nav class="db dt-l w-100 border-box pa4 ph6-l">
+        <a class="db dtc-l v-mid link dimly w-100 w-25-l tc tl-l mb2 mb0-l logo" href="#" title="Home">
+          <svg class="logo h3" viewBox="839 -290 1000 1001" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <desc>logo - Lydivette Roldán</desc>
+              <defs>
+                  <ellipse id="path-1" cx="500" cy="500" rx="500" ry="500"></ellipse>
+              </defs>
+              <g id="Yellow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(839.000000, -290.000000)">
+                  <mask id="mask-2" fill="white">
+                      <use xlink:href="#path-1"></use>
+                  </mask>
+                  <use id="Mask" fill="#FFB700" xlink:href="#path-1"></use>
+                  <polygon id="Mask" fill="#EEEEEE" mask="url(#mask-2)" points="470.2 588.4 577 588.4 577 629.6 423 629.6 423 370 470.2 370"></polygon>
               </g>
           </svg>
         </a>
         <div class="db dtc-l v-mid w-100 w-75-l tc tr-l">
-          <a class="b link hover-dark-red dark-gray f6 f5-l dib mr3 mr4-l" href="#about" title="About">About</a>
-          <a class="b link hover-dark-red dark-gray f6 f5-l dib mr3 mr4-l" href="#work" title="Work">Work</a>
-          <a class="b link hover-dark-red dark-gray f6 f5-l dib mr3 mr4-l" href="#contact" title="Contact">Contact</a>
+          <a class="b link bb bw2 hover-dark-blue f6 f5-l dib mr3 mr4-l" href="#about" title="Work">About</a>
+          <a class="b link bb bw2 hover-dark-blue f6 f5-l dib mr3 mr4-l" href="#work" title="Work">Work</a>
+          <a class="b link bb bw2 hover-dark-blue f6 f5-l dib mr3 mr4-l" href="#contact" title="Contact">Contact</a>
         </div>
       </nav> <!-- /nav -->
       <!-- introduction -->
-      <section class="section introduction" id="introduction">
-        <article class="pa3 pa4-l">
-          <div class="introduction-box center w-100 w-two-thirds-l pa2">
-            <div class="scaling-svg-container">
-              <svg class="scaling-svg" viewBox="12 -41 2147 1497" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                  <defs>
-                      <polygon id="path-1" points="0 1496 2147 0 2147 1496"></polygon>
-                      <polygon id="path-3" points="0 1496 2147 0 2147 1496"></polygon>
-                  </defs>
-                  <g id="Group-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(12.000000, -40.000000)">
-                      <g id="Group">
-                          <mask id="mask-2" fill="white">
-                              <use xlink:href="#path-1"></use>
-                          </mask>
-                          <use id="Right-Copy" fill="#D8D8D8" opacity="0.28358209" xlink:href="#path-1"></use>
-                          <mask id="mask-4" fill="white">
-                              <use xlink:href="#path-3"></use>
-                          </mask>
-                          <use id="Left-Copy" fill="#FF725C" transform="translate(1073.500000, 748.000000) rotate(180.000000) translate(-1073.500000, -748.000000) " xlink:href="#path-3"></use>
-                      </g>
-                      <rect id="Rectangle-2" fill="#FFFFFF" x="360" y="243" width="1436" height="1010"></rect>
-                  </g>
-              </svg>
-              <div class="dark-gray flex flex-column items-center justify-center w-100 ph4 introduction-text">
-                <h1 class="b f5 f3-m f2-l fw-1 mt0 mb0">
-                  Lydivette Roldán
-                </h1>
-                <h2 class="b f7 f4-m f3-l ttu mt0 mb0 lh-copy">
-                  Front End Developer
-                </h2>
-              </div>
-            </div>
-          </div>
+      <section class="section introduction bg-svg" id="introduction">
+        <article class="">
+
         </article>
       </section>
       <!-- /introduction -->
       <!-- about -->
-      <section class="section about pa4" id="about">
-        <h1 class="f3 f2-m f1-l lh-copy ttu">About</h1>
+      <section class="pa3 ph6-l pv4-l" id="about">
+        <h1 class="b f5 f3-m f2-l fw-1 mb0 lh-title">
+          Lydivette Roldán
+        </h1>
+        <h2 class="b f7 f4-m f3-l ttu mt0 mb0 lh-copy">
+          Front End Developer
+        </h2>
         <article class="cf">
           <div class="fl w-100 w-50-ns pr4-ns">
-            <p class="f5 code lh-copy mv0"><strong>Lydivette</strong> <small class="avenir">/ˈliːdɪ:ˈvɛt/</small></p>
-            <p class="f6 measure-wide lh-copy mt0">
-              When I was child, learning how to write and read made me realize that spelling and saying my name correctly could be worldwide challenges. Don’t let it get you down, I usually respond to whatever looks and sounds like my name.
-            </p>
             <p class="measure lh-copy">
               I like making websites and turning design into reusable code.
             </p>
