@@ -7967,6 +7967,9 @@ html {
   min-height: 100%;
   position: relative; }
 
+body {
+  background: #fff; }
+
 a {
   color: #111; }
   a, a:hover, a:focus {
