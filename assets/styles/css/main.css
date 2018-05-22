@@ -8019,8 +8019,8 @@ a {
 
 .project-img::before {
   -webkit-transition: all 0.5s;
-  background-color: #999;
-  color: #ddd;
+  background-color: #eee;
+  color: #777;
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
   content: '● ● ●';
