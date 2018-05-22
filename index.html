@@ -11,7 +11,7 @@
       <link rel="stylesheet" type="text/css" href="assets/styles/css/main.css">
 
       <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-      <script src="index.js" type="text/javascript" charset="utf-8" defer></script>
+      <script src="index.js" defer></script>
     </head>
     <body class="avenir">
       <!-- nav -->
@@ -26,8 +26,8 @@
                   <mask id="mask-2" fill="white">
                       <use xlink:href="#path-1"></use>
                   </mask>
-                  <use id="Mask" fill="#FFB700" xlink:href="#path-1"></use>
-                  <polygon id="Mask" fill="#FFFFFF" mask="url(#mask-2)" points="470.2 588.4 577 588.4 577 629.6 423 629.6 423 370 470.2 370"></polygon>
+                  <use id="useMask" fill="#FFB700" xlink:href="#path-1"></use>
+                  <polygon id="polyMask" fill="#FFFFFF" mask="url(#mask-2)" points="470.2 588.4 577 588.4 577 629.6 423 629.6 423 370 470.2 370"></polygon>
               </g>
           </svg>
         </a>
@@ -39,10 +39,10 @@
       </nav> <!-- /nav -->
       <!-- about -->
       <section class="pa4 ph6-l pv4-l" id="about">
+        <h1 class="f3 f2-ns lh-title mb0">
+          Lydivette Roldán
+        </h1>
         <article class="w-100 f6 f3-ns">
-          <h1 class="f3 f2-ns lh-title mb0">
-            Lydivette Roldán
-          </h1>
           <h2 class="fw1 f6 f4-ns lh-copy mt0 mb0">Front-End Developer coding in Massachusetts</h2>
           <p class="measure lh-copy">
             I like making websites and turning design into reusable code.
@@ -68,15 +68,15 @@
       <!-- work -->
       <section class="pa4 ph6-l pv4-l" id="work">
         <article class="bb b--near-white">
-          <h1 class="f3 f2-ns lh-copy ttu">Work</h1>
+          <h3 class="f3 f2-ns lh-copy ttu">Work</h3>
           <div class="db pv4 no-underline">
             <div class="flex flex-column flex-row-ns">
               <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
                 <img src="assets/images/screenshot-simpl-to-do.png" class="db" alt="Photo of a dimly lit room with a computer interface terminal.">
               </div>
               <div class="w-100 w-60-ns pl3-ns">
-                <h1 class="b f3 mt0 mb0 lh-title">Simpl To-Do</h1>
-                <h2 class="fw1 f6 f5-l measure-wide lh-copy mt0">HTML, CSS, Sass, Handlebars, JavaScript, MongoDB, Express.js</h2>
+                <h4 class="b f3 mt0 mb0 lh-title">Simpl To-Do</h4>
+                <h5 class="fw1 f6 f5-l measure-wide lh-copy mt0">HTML, CSS, Sass, Handlebars, JavaScript, MongoDB, Express.js</h5>
                 <p class="f6 f5-l measure-wide lh-copy">
                   Simpl To-Do is a single-page application where users can create, update, read and delete their to-do list items on their browser.
                 </p>
@@ -95,8 +95,8 @@
                 <img src="assets/images/screenshot-plain.png" class="db" alt="Photo of a dimly lit room with a computer interface terminal.">
               </div>
               <div class="w-100 w-60-ns pl3-ns">
-                <h1 class="b f3 mt0 mb0 lh-title">Plain and Simpl</h1>
-                <h2 class="fw1 f6 f5-l measure-wide lh-copy mt0">HTML, CSS, Sass, Handlebars, JavaScript, Ruby on Rails, PostgreSQL</h2>
+                <h4 class="b f3 mt0 mb0 lh-title">Plain and Simpl</h4>
+                <h5 class="fw1 f6 f5-l measure-wide lh-copy mt0">HTML, CSS, Sass, Handlebars, JavaScript, Ruby on Rails, PostgreSQL</h5>
                 <p class="f6 f5-l measure-wide lh-copy">
                   Plain and Simpl is a single-page application for users to create, update, publish, view and delete their own blog posts. The only supported format for a user’s blog posts is plain text.
                 </p>
@@ -115,8 +115,8 @@
                 <img src="assets/images/screenshot-airport.png" class="db" alt="Photo of a dimly lit room with a computer interface terminal.">
               </div>
               <div class="w-100 w-60-ns pl3-ns">
-                <h1 class="b f3 mt0 mb0 lh-title">Luis Muñoz Marín International Airport</h1>
-                <h2 class="fw1 f6 f5-l measure-wide lh-copy mt0">HTML, CSS, Sass</h2>
+                <h4 class="b f3 mt0 mb0 lh-title">Luis Muñoz Marín International Airport</h4>
+                <h5 class="fw1 f6 f5-l measure-wide lh-copy mt0">HTML, CSS, Sass</h5>
                 <p class="f6 f5-l measure-wide lh-copy">
                   Luis Muñoz Marín International Airport is Puerto Rico's joint civil-military international airport located in Carolina. Over 4 million passengers use this website to book their trips and browse maps, stores, restaurants and transportation options.
                 </p>
@@ -132,7 +132,7 @@
       <!-- /work -->
       <section class="pa4 ph6-l pv4-l" id="contact">
         <article class="f6 f3-ns">
-          <h1 class="f3 f2-ns ttu lh-title">Contact</h1>
+          <h3 class="f3 f2-ns ttu lh-title">Contact</h3>
           <p class="measure-wide lh-copy">
             If you would like to hire me, collaborate on a project, or ask me anything, please feel free to send me an e-mail <a href="mailto:lydivette.roldan@gmail.com" class="bb bw1 hover-dark-blue" target="_blank" title="Lydivette's email address">here</a>.
           </p>
