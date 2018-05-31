@@ -7996,6 +7996,9 @@ a {
   top: 0;
   width: 100%; }
 
+@media screen and (min-width: 30em) {
+  .tj {
+    text-align: justify; } }
 .btn-link,
 .nav > li > a {
   border-bottom: 2px solid #111;
